@@ -89,8 +89,10 @@ AUTH_PASSWORD_VALIDATORS = [
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://gdp-deep-qai-pbwt.vercel.app"
 ]
+
 
 # Internationalization
 LANGUAGE_CODE = 'en-us'
